@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.2" icons="true" always-add-relationships="true" generalizations="true" realizations="true" 
+  associations="true" dependencies="true" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="server" project="csvViewer" file="/csvViewer/src/server" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="348" y="261"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="client.controllers" project="csvViewer" file="/csvViewer/src/client/controllers" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="540" y="98"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="utils" project="csvViewer" file="/csvViewer/src/utils" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="614" y="352"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="client" project="csvViewer" file="/csvViewer/src/client" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="679" y="107"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="client.views" project="csvViewer" file="/csvViewer/src/client/views" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="699" y="214"/>    
+    <display autosize="true" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <dependency id="6">    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="2"/>  
+  </dependency>  
+  <dependency id="7">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <dependency id="8">    
+    <bendpoint x="508" y="371"/>    
+    <end type="SOURCE" refId="1"/>    
+    <end type="TARGET" refId="3"/>  
+  </dependency>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
